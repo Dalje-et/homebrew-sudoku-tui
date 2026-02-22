@@ -1,26 +1,26 @@
 class SudokuTui < Formula
   desc "Terminal-based Sudoku game with competitive multiplayer"
   homepage "https://github.com/Dalje-et/sudoku-tui"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.1/sudoku-tui-aarch64-apple-darwin.tar.gz"
-      sha256 "33c8f6519828051449511c2d58f1d402f60fd45d067957c123c2ef0cc94212f4"
+      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.2/sudoku-tui-aarch64-apple-darwin.tar.gz"
+      sha256 "65b9843ad2c1a465ff31a57c7c78684aa1488bb98e051616b1d90e69621041f2"
     else
-      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.1/sudoku-tui-x86_64-apple-darwin.tar.gz"
-      sha256 "23c2cb58d1deaac078795250edb4c91d713b01dcb099438ae44a2227a76e6692"
+      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.2/sudoku-tui-x86_64-apple-darwin.tar.gz"
+      sha256 "3c45678d2d8c1b5cab2dbcc42075d57ff8b4d2c8425b00ae5ff1f1d0141f72ea"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.1/sudoku-tui-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "44dd2e5a5602cb383a39c9ffb0bf6556505947c087e058e1909741ea5e971446"
+      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.2/sudoku-tui-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "96bdf2e8b98bf55ee383c8b16eacc95da98f604877b1ef5550d24d2328af7bd4"
     else
-      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.1/sudoku-tui-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "062ad04808ba5d5980336760023c05ba3a7752a79ace8408723459cf1d5de32e"
+      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.2/sudoku-tui-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0872b487439e3152116b12715b844920949bce4b22f4668882a36953ce676114"
     end
   end
 
