@@ -1,26 +1,26 @@
 class SudokuTui < Formula
-  desc "Terminal-based Sudoku game built with Ratatui"
+  desc "Terminal-based Sudoku game with competitive multiplayer"
   homepage "https://github.com/Dalje-et/sudoku-tui"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.1.1/sudoku-tui-aarch64-apple-darwin.tar.gz"
-      sha256 "c0df1b42d3e3287e35d171a832b78f90c22ca50d0e5739e7c0e7d022bcb9b31a"
+      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.0/sudoku-tui-aarch64-apple-darwin.tar.gz"
+      sha256 "691b0c1be541c3fea55818bf75f5d01efc8a4ed3f3b655ea056443ecda62357c"
     else
-      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.1.1/sudoku-tui-x86_64-apple-darwin.tar.gz"
-      sha256 "1f62343510cf0a1e48d13c143f6be1b69d4ee51e98d45fe6932d8dd932e9ac2a"
+      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.0/sudoku-tui-x86_64-apple-darwin.tar.gz"
+      sha256 "efb8e5102265a101b5aa02e866ace0451aead811606c9c52c98a554ae5cec9ee"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.1.1/sudoku-tui-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d6328445bcd6d9b22ea6af25a4bd37a39410a965523f6573ad26203d7c8350c1"
+      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.0/sudoku-tui-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "63cdb9eaadade60f7733c980cedfd3a8d1e58fe72840815cb175eba85f4ee62f"
     else
-      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.1.1/sudoku-tui-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cc0b647b1f9bc878bb6f31bce0a9febe9e7fac783d6e55a44714d2a7196fe4f6"
+      url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.0/sudoku-tui-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9d7f06d92ceeab08f2903df33b90ab84434081d42e7a1a89ec8df9dced9b283d"
     end
   end
 
