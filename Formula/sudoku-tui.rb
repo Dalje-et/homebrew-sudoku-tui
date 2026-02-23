@@ -7,20 +7,20 @@ class SudokuTui < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.3/sudoku-tui-aarch64-apple-darwin.tar.gz"
-      sha256 "4c9dbc8ea0c7a89267f8c1f2c46e768345e969a52c2feaae8a5e276ef8f13d08"
+      sha256 "f4b3171dc0e23044c08ba261b1f70ee01c8043c8b77d9dd1aa7123c76112ed8b"
     else
       url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.3/sudoku-tui-x86_64-apple-darwin.tar.gz"
-      sha256 "e786dfea6c8e215a579c76d6915da9eec505f3f6e4474456ff21a45471fbdb83"
+      sha256 "599d28125348bccae161d432e9cf0a0dfd757ce14efdf7dd2c020500593449ac"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.3/sudoku-tui-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "35af652744b8608805fc6462f9700ab618d923c04846485d1f9a4fbe948c7a25"
+      sha256 "cf484710e4d0a649bf2e8dbf5b7c232855b2798c22fad61a6c6bd8e896b81add"
     else
       url "https://github.com/Dalje-et/sudoku-tui/releases/download/v0.2.3/sudoku-tui-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2a20335adc386589e8d6e89ecabb803a429f9e8508c48af491917d266b737d9e"
+      sha256 "89996cf186db60bc06eff33338a412e0b379a8623c1765c04a0c403807ae495e"
     end
   end
 
